@@ -3,13 +3,16 @@
 Repository for the CSE284 final project "Comparing PLINK vs other methods for Relative Finding" by Robert Xu, Richard Zhang, and Richard James. This workspace contains data, scripts, results, and notebooks used to reproduce analyses (including KING-based relatedness and IBD segment summaries) on chr22 from 1000 Genomes and benchmark data.
 
 ## Contents
-- `cse284-final-proj.ipynb` — final project notebook (analysis & figures).
+- `cse284-final-proj.ipynb` — Chr22 analysis notebook comparing KING and PLINK relatedness estimates, IBD segment summaries, and visualizations.
 - `run_1000g_analysis.sh` — shell script to run the example 1000 Genomes analysis pipeline.
+- `Final_Project_LWK_Only.ipynb` — LWK analysis notebook comparing KING and PLINK relatedness estimates, IBD segment summaries, and visualizations.
+- `LWK_Analysis.sh` — shell script to run the example LWK analysis pipeline.
 - `data/` — input data; `data/test/` contains minimal test inputs.
 - `results/` — produced result files (KING outputs, IBD segments, benchmarks).
 - `figures/` — generated figures from the notebook/analysis.
 - `notebooks/` — supporting notebooks *(none right now).
 - `scripts/` — helper scripts used by the pipeline.
+- `20130606_g1k.ped` — 1000 Genomes PED file. Used to attempt to find "ground truth" related pairs for benchmarking.
 
 ## Key result files (examples)
 - `results/1000g_chr22_king_related.kin0`
